@@ -53,12 +53,12 @@ describe('API - teste funcional do carrinho', () => {
     it('Deve cadastrar produtos no carrinho com sucesso', () => {
         const products = [
             {
-                idProduto: "iidXMyNZekHKQCYi",
+                idProduto: "kYlsXZ8sGz7KZrnZ",
                 quantidade: 1
             },
             {
-                idProduto: "lQZLXrpGSjraXrrZ",
-                quantidade: 3
+                idProduto: "Fi4xb2NLq4T0qP4a",
+                quantidade: 1
             }
         ]
 

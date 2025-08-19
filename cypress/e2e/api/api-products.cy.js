@@ -53,7 +53,7 @@ describe('API - teste funcional de produtos', () => {
         const quantity = response.body.quantidade
         const products = response.body.produtos
 
-        productId = products[products.length - 1]._id
+        productId = products[0]._id
 
         expect(response.status).to.equal(200)
         expect(quantity).to.equal(products.length)
